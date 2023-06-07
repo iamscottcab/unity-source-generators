@@ -159,8 +159,8 @@ private async void Start()
 ```
 
 ## 📝Notes
-- The source generator assumes your dependencies will be valid before `Initialize` is called. It purposes does not `null` check them because doing so might lead to cases where you think initialization has occured but instead it silent fails.
-- The source generator only supports fields and not propertys for dependencies. Primarily because the former is most commonly used for either direct reference serialization or dependency injection frameworks.
+- The source generator assumes your dependencies will be valid before `Initialize` is called. It purposely does not `null` check them because doing so might lead to cases where you think initialization has occured but instead it silently fails.
+- The source generator only supports fields and not properties for dependencies. Primarily because the former is most commonly used for either direct reference serialization or dependency injection frameworks.
 
 ## 💖 Thanks
 If you've gotten this far, or you've enjoyed this repo and want to say thanks you can do that in the following ways:
