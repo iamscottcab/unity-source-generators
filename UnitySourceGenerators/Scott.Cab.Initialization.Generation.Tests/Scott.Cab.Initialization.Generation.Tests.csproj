@@ -16,6 +16,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Scott.Cab.Initialization.Generation\Scott.Cab.Initialization.Generation.csproj" />
+    <ProjectReference Include="..\Scott.Cab.Tests.Common\Scott.Cab.Tests.Common.csproj" />
   </ItemGroup>
 
 </Project>

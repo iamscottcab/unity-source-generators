@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scott.Cab.Initialization.Ge
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scott.Cab.Initialization.Generation", "Scott.Cab.Initialization.Generation\Scott.Cab.Initialization.Generation.csproj", "{843CFA88-C728-4A06-A3B7-52A318887342}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scott.Cab.Generation.Common", "Scott.Cab.Generation.Common\Scott.Cab.Generation.Common.csproj", "{B8ED135E-4D52-4418-991F-730FFECEA456}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scott.Cab.Generation.Common", "Scott.Cab.Generation.Common\Scott.Cab.Generation.Common.csproj", "{B8ED135E-4D52-4418-991F-730FFECEA456}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scott.Cab.Tests.Common", "Scott.Cab.Tests.Common\Scott.Cab.Tests.Common.csproj", "{9BECA963-E911-4D26-9996-E3802DDA78B4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{B8ED135E-4D52-4418-991F-730FFECEA456}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8ED135E-4D52-4418-991F-730FFECEA456}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8ED135E-4D52-4418-991F-730FFECEA456}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BECA963-E911-4D26-9996-E3802DDA78B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BECA963-E911-4D26-9996-E3802DDA78B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BECA963-E911-4D26-9996-E3802DDA78B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BECA963-E911-4D26-9996-E3802DDA78B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

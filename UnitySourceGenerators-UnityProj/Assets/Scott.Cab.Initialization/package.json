@@ -1,0 +1,12 @@
+{
+    "name": "cab.scott.initialization",
+    "version": "1.0.0",
+    "displayName": "Initialization",
+    "description": "Provides a robust, abstracted async initialization flow for your objects.",
+    "documentationUrl": "https://github.com/iamscottcab/unity-source-generators",
+    "author": {
+      "name": "Scott.Cab",
+      "email": "iam@scott.cab",
+      "url": "https://www.scott.cab"
+    }
+  }
