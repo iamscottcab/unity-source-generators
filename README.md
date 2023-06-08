@@ -5,11 +5,11 @@ A collection of source generators for Unity3D, that I build as I find them usefu
 This source generator standardizes asychronous loading of classes and their dependencies such that you don't have to worry about managing your dependencies initialization status or handling multiple calls to initialization of your classes. This allows your components to stay self contained and not require a heirarchical structure to ensure initialization order.
 
 ### ⚙️ Installation
-Simply install via the Unity Package manager with the following url **https://github.com/iamscottcab/unity-source-generators.git?path=/UnitySourceGenerators-UnityProj/Assets/Scott.Cab.Initialization#main**
+Simply install via the Unity Package Manager with the following url **https://github.com/iamscottcab/unity-source-generators.git?path=/UnitySourceGenerators-UnityProj/Assets/Scott.Cab.Initialization#main**
 
 Or, you can install via compiling the source as described below:
 
-1. Clone and compile `Scott.Cab.Initialization.Generation` from source, in Release Mode. I'll provide a UPM package in the near future too, stay tuned!
+1. Clone and compile `Scott.Cab.Initialization.Generation` from source, in Release Mode.
 2. Import `Scott.Cab.Initialization.dll`, `Scott.Cab.Initialization.Generation.dll` and `Scott.Cab.Generation.Common.dll` into your Unity Assets folder.
 3. Set `Scott.Cab.Initialization.Generation.dll` and `Scott.Can.Generation.Common.dll` to be Roslyn Analyzers [as per the Unity documentation](https://docs.unity3d.com/Manual/roslyn-analyzers.html).
 
